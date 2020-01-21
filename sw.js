@@ -1,5 +1,5 @@
-const appCacheName = 'demo-v1';
-const dynamicAppCache = 'demo-v1-dynamic';
+const appCacheName = 'demo-static-v1';
+const dynamicAppCache = 'demo-dynamic-v1';
 
 // files and request to cache 
 const appShellFiles = [
