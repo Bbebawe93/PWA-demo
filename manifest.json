@@ -2,7 +2,7 @@
     "name": "PWA Demo",
     "short_name": "PWADemo",
     "description": "Progressive Web App Demo",
-    "start_url": "/PWA-demo/index.html",
+    "start_url": " https://bbebawe93.github.io/PWA-demo/",
     "display": "standalone",
     "background_color": "#2e4056",
     "theme_color": "#2e4056",
