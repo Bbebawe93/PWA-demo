@@ -1,18 +1,18 @@
 const appCacheName = 'demo-v1';
 // files and request to cache 
 const appShellFiles = [
-    '/',
-    '/index.html',
-     '/js/app.js',
-        '/css/style.css',
-        '/img/logo.jpg',
-        '/img/icons/icon-36x36.png',
-        '/img/icons/icon-48x48.png',
-        '/img/icons/icon-72x72.png',
-        '/img/icons/icon-180x180.png',
-        '/img/icons/icon-192x192.png',
-        '/img/icons/icon-310x310.png',
-        '/img/icons/icon-512x512.png'
+    // '/',
+    // '/index.html',
+    //  '/js/app.js',
+    //     '/css/style.css',
+    //     '/img/logo.jpg',
+    //     '/img/icons/icon-36x36.png',
+    //     '/img/icons/icon-48x48.png',
+    //     '/img/icons/icon-72x72.png',
+    //     '/img/icons/icon-180x180.png',
+    //     '/img/icons/icon-192x192.png',
+    //     '/img/icons/icon-310x310.png',
+    //     '/img/icons/icon-512x512.png'
 ];
 
 // installing service worker
