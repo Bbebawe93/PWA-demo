@@ -4,3 +4,12 @@ img {
     /* display: inline-block; */
     float: left;
 }
+
+.margin-main {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.product:nth-child(2) {
+    background: red;
+  }

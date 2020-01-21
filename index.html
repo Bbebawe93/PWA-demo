@@ -34,16 +34,41 @@
     </header>
     <main>
         <div id="app">
-            <h1>Welcome to WPA Demo</h1>
-            <div v-for="course in courses">
-                <h5>{{ course.courseName}}</h5>
-                <p>
-                    {{course.location}}<br>
-                </p>
-                <div v-for="image in course.images">
-                    <img :src="image" alt="course image" />
+            <div class="container">
+                <h1>Welcome to WPA Demo</h1>
+                <div >
+                    <div class="row margin-main">
+                        <div class="col-sm-3">
+                            <h4>Course</h4>
+                        </div>
+                        <div class="col-sm-6">
+                            <h4>Course Name</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Course Location</h4>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <div v-for="course in courses">
+                    <div class="row product">
+                        <div class="col-sm-3">
+                            <div v-for="image in course.images">
+                                <img :src="image" alt="course image" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <h5 >{{ course.courseName}}</h5 >
+                        </div>
+                        <div class="col-sm-3">
+                            <p style="color: rgb(3, 3, 190)">
+                                {{course.location}}<br>
+                            </p>
+                        </div>
+                    </div> <!-- col -->
+                    <hr>
+                </div> <!-- row -->
+            </div> <!-- v-for -->
+        </div>
         </div>
     </main>
     <footer>
