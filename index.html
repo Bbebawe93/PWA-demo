@@ -24,6 +24,7 @@
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
 </head>
 
 
@@ -32,13 +33,23 @@
 
     </header>
     <main>
-        <div id="content">
-            <h1>Welcome to my app</h1>
+        <div id="app">
+            <h1>Welcome to WPA Demo</h1>
+            <div v-for="course in courses">
+                <h5>{{ course.courseName}}</h5>
+                <p>
+                    {{course.location}}<br>
+                </p>
+                <div v-for="image in course.images">
+                    <img :src="image" alt="course image" />
+                </div>
+            </div>
         </div>
     </main>
     <footer>
-        <script src="./js/app.js"></script>
     </footer>
+    <script src="./js/app.js"></script>
+
 </body>
 
 </html>

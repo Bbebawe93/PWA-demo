@@ -1,0 +1,6 @@
+img {
+    max-width: 120px;
+    max-height: 80px;
+    /* display: inline-block; */
+    float: left;
+}
