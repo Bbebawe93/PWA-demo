@@ -1,0 +1,46 @@
+{
+    "name": "After School Club",
+    "short_name": "AfterSchool",
+    "description": "Progressive Web App that provides after school classes and activities",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#2e4056",
+    "theme_color": "#2e4056",
+    "orientation": "portrait-primary",
+    "icons": [{
+            "src": "./img/icons/icon-36x36.png",
+            "type": "image/png",
+            "sizes": "36x36"
+        },
+        {
+            "src": "./img/icons/icon-48x48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "./img/icons/icon-72x72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "./img/icons/icon-180x180.png",
+            "type": "image/png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "./img/icons/icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./img/icons/icon-310x310.png",
+            "type": "image/png",
+            "sizes": "310x310"
+        },
+        {
+            "src": "./img/icons/icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
