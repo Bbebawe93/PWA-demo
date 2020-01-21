@@ -1,4 +1,4 @@
-const appCacheName = 'afterSchool-v1';
+const appCacheName = 'demo-v1';
 // files and request to cache 
 const appShellFiles = [
     '/',

@@ -1,8 +1,8 @@
 {
-    "name": "After School Club",
-    "short_name": "AfterSchool",
-    "description": "Progressive Web App that provides after school classes and activities",
-    "start_url": "/index.html",
+    "name": "PWA Demo",
+    "short_name": "PWADemo",
+    "description": "Progressive Web App Demo",
+    "start_url": "https://bbebawe93.github.io//index.html",
     "display": "standalone",
     "background_color": "#2e4056",
     "theme_color": "#2e4056",
