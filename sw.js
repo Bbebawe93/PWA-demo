@@ -14,10 +14,10 @@ const appShellFiles = [
     '/img/icons/icon-180x180.png',
     '/img/icons/icon-192x192.png',
     '/img/icons/icon-310x310.png',
-    '/img/icons/icon-512x512.png', 
-    "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css", 
-    "https://cdn.jsdelivr.net/npm/vue", 
-    
+    '/img/icons/icon-512x512.png',
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
+    "https://cdn.jsdelivr.net/npm/vue",
+
 ];
 
 // installing service worker
@@ -41,23 +41,10 @@ self.addEventListener('fetch', (evt) => {
                 return caches.open(dynamicAppCache).then(cache => {
                     // clone the response and store it in the cache 
                     cache.put(evt.request.url, fetchResponse.clone());
-                    // remove items from cache if passed max size 
-                    limitCacheSize(dynamicAppCache, 20);
                     return fetchResponse; // return response to the browser 
                 })
             });
             // catch network error and serve fallback page 
-        }).catch(() => {
-            // send fallback only when request is made to html pages 
-            if (evt.request.url.indexOf('.html') > -1) {
-                return caches.match('fallback.html')
-            }
         })
     );
 });
-
-// activate service worker 
-self.addEventListener('activate', (evt) => {
-    console.log(' [Service Worker] Activated');
-});
-
