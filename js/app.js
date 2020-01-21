@@ -17,10 +17,7 @@ var vm = new Vue({
                 "./img/courses/vue2.png",
                 "./img/courses/vue3.png",
                 "./img/courses/vue4.png",
-                "./img/courses/vue5.png", 
-                "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css", 
-                "https://cdn.jsdelivr.net/npm/vue", 
-                
+                "./img/courses/vue5.png"
             ]
         }]
     }

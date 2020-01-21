@@ -14,7 +14,10 @@ const appShellFiles = [
     '/img/icons/icon-180x180.png',
     '/img/icons/icon-192x192.png',
     '/img/icons/icon-310x310.png',
-    '/img/icons/icon-512x512.png'
+    '/img/icons/icon-512x512.png', 
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css", 
+    "https://cdn.jsdelivr.net/npm/vue", 
+    
 ];
 
 // installing service worker
